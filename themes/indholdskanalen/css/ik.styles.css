@@ -22,10 +22,10 @@ a.button, input.form-submit, .ik-channel-filter-add-button.button, .more-link a.
   text-align: center;
   vertical-align: middle; }
   /* line 39, ../sass/_ik.buttons.scss */
-  .button:focus, .more-link a:focus, input.form-submit:focus, .more-link a.ik-channel-filter-add-button:focus, .more-link a.start:focus, input.form-submit#edit-submit:focus, input.form-submit#edit-delete:focus, .more-link a.ik-channel-filter-remove:focus, input.form-submit#edit-preview:focus, .button:hover, .more-link a:hover, input.form-submit:hover, .more-link a.ik-channel-filter-add-button:hover, .more-link a.start:hover, input.form-submit#edit-submit:hover, input.form-submit#edit-delete:hover, .more-link a.ik-channel-filter-remove:hover, input.form-submit#edit-preview:hover, .button:active, .more-link a:active, input.form-submit:active, .more-link a.ik-channel-filter-add-button:active, .more-link a.start:active, input.form-submit#edit-submit:active, input.form-submit#edit-delete:active, .more-link a.ik-channel-filter-remove:active, input.form-submit#edit-preview:active {
+  .button:focus, .more-link a:focus, input.form-submit:focus, input.form-submit#edit-submit:focus, input.form-submit#edit-delete:focus, input.form-submit#edit-preview:focus, .button:hover, .more-link a:hover, input.form-submit:hover, input.form-submit#edit-submit:hover, input.form-submit#edit-delete:hover, input.form-submit#edit-preview:hover, .button:active, .more-link a:active, input.form-submit:active, input.form-submit#edit-submit:active, input.form-submit#edit-delete:active, input.form-submit#edit-preview:active {
     text-decoration: none; }
   /* line 45, ../sass/_ik.buttons.scss */
-  .disabled.button, .more-link a.disabled, input.disabled.form-submit, .more-link a.disabled.ik-channel-filter-add-button, .more-link a.disabled.start, input.disabled.form-submit#edit-submit, input.disabled.form-submit#edit-delete, .more-link a.disabled.ik-channel-filter-remove, input.disabled.form-submit#edit-preview, [disabled].button, .more-link a[disabled], input[disabled].form-submit, .more-link a[disabled].ik-channel-filter-add-button, .more-link a[disabled].start, input[disabled].form-submit#edit-submit, input[disabled].form-submit#edit-delete, .more-link a[disabled].ik-channel-filter-remove, input[disabled].form-submit#edit-preview {
+  .disabled.button, .more-link a.disabled, input.disabled.form-submit, input.disabled.form-submit#edit-submit, input.disabled.form-submit#edit-delete, input.disabled.form-submit#edit-preview, [disabled].button, .more-link a[disabled], input[disabled].form-submit, input[disabled].form-submit#edit-submit, input[disabled].form-submit#edit-delete, input[disabled].form-submit#edit-preview {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=65);
     opacity: 0.65;
     -webkit-box-shadow: none;
@@ -269,7 +269,7 @@ body {
 /* line 53, ../sass/_ik.base.scss */
 #logo-container {
   padding: 20px;
-  background-color: #1a1919; }
+  background-color: white; }
 
 /* line 58, ../sass/_ik.base.scss */
 #footer {
@@ -283,7 +283,7 @@ body {
   margin-top: -6em;
   width: 100%;
   padding: 20px 20px 40px 20px;
-  background-color: #1a1919;
+  background-color: white;
   color: white; }
   /* line 73, ../sass/_ik.base.scss */
   #footer a:link,
@@ -437,16 +437,16 @@ body {
 /* Panels margin tweaks */
 /* line 90, ../sass/_ik.legacy.scss */
 .panel-col-last .inside {
-  margin-left: 1em!important; }
+  margin-left: 1em !important; }
 
 /* line 93, ../sass/_ik.legacy.scss */
 .panel-col-first .inside {
-  margin-right: 1em!important; }
+  margin-right: 1em !important; }
 
 /* line 96, ../sass/_ik.legacy.scss */
 .panel-col .inside {
-  margin-left: 1em!important;
-  margin-right: 1em!important; }
+  margin-left: 1em !important;
+  margin-right: 1em !important; }
 
 /* Views styles */
 /* line 102, ../sass/_ik.legacy.scss */
