@@ -108,10 +108,10 @@ function ik_slides_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        1 => 'Hvid baggrund (50%) med sort skrift',
-        2 => 'Sort baggrund (50%) med hvid skrift',
-        3 => 'Blå baggrund (100%) med hvid skrift',
-        4 => 'Pink baggrund (100%) med hvid skrift',
+        1 => 'Musikhuset 1 – hvid med sort skrift',
+        2 => 'Musikhuset 2 – sort med hvid skrift',
+        3 => 'Sport & Fritid 1 – blå',
+        4 => 'Sport & Fritid 2 - pink',
         5 => '',
       ),
       'allowed_values_function' => '',
