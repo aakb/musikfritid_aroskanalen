@@ -167,27 +167,27 @@ i {
 
 /* line 90, ../sass/_base.scss */
 h1 {
-  font-size: 5em; }
+  font-size: 5.5em; }
 
 /* line 94, ../sass/_base.scss */
 h2 {
-  font-size: 3em; }
+  font-size: 3.5em; }
 
 /* line 98, ../sass/_base.scss */
 h3 {
-  font-size: 2.75em; }
+  font-size: 3.3em; }
 
 /* line 102, ../sass/_base.scss */
 h4 {
-  font-size: 3em; }
+  font-size: 3.6em; }
 
 /* line 106, ../sass/_base.scss */
 h5 {
-  font-size: 3.25em; }
+  font-size: 3.9em; }
 
 /* line 110, ../sass/_base.scss */
 h6 {
-  font-size: 3.5em; }
+  font-size: 4.2em; }
 
 /* line 115, ../sass/_base.scss */
 .slide-text ul, .slide-text ol {
@@ -317,14 +317,14 @@ h6 {
       width: 100%;
       margin-bottom: 20px;
       font-family: "AllerBold", "Aller", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 5em;
+      font-size: 5.5em;
       text-transform: uppercase; }
     /* line 132, ../sass/_layouts.scss */
     .slide .text-container .slide-subheading {
       display: block;
       width: 100%;
       font-family: "AllerBold", "Aller", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 3em; }
+      font-size: 3.5em; }
     /* line 139, ../sass/_layouts.scss */
     .slide .text-container .slide-text {
       -webkit-box-sizing: border-box;
@@ -333,7 +333,7 @@ h6 {
       display: block;
       width: 100%;
       padding: 20px;
-      font-size: 2.5em;
+      font-size: 3em;
       line-height: 1.5em; }
   /* line 150, ../sass/_layouts.scss */
   .slide .logo-container {
@@ -362,13 +362,13 @@ h6 {
       font-size: 0.5em; }
       /* line 179, ../sass/_layouts.scss */
       body.slide-preview .slide-heading {
-        font-size: 2.5em !important; }
+        font-size: 2.75em !important; }
       /* line 183, ../sass/_layouts.scss */
       body.slide-preview .logo-container img {
         max-width: 250px !important; }
     /* line 189, ../sass/_layouts.scss */
     body .slide-heading {
-      font-size: 3.33333em !important; }
+      font-size: 3.66667em !important; }
     /* line 193, ../sass/_layouts.scss */
     body .slide-text,
     body .heading-container {
@@ -387,13 +387,13 @@ h6 {
       font-size: 0.4em; }
       /* line 213, ../sass/_layouts.scss */
       body.slide-preview .slide-heading {
-        font-size: 2em !important; }
+        font-size: 2.2em !important; }
       /* line 217, ../sass/_layouts.scss */
       body.slide-preview .logo-container img {
         max-width: 150px !important; }
     /* line 223, ../sass/_layouts.scss */
     body .slide-heading {
-      font-size: 2.5em !important; }
+      font-size: 2.75em !important; }
     /* line 227, ../sass/_layouts.scss */
     body .slide-text,
     body .heading-container {
@@ -412,13 +412,13 @@ h6 {
       font-size: 0.33333em; }
       /* line 247, ../sass/_layouts.scss */
       body.slide-preview .slide-heading {
-        font-size: 1.66667em !important; }
+        font-size: 1.83333em !important; }
       /* line 251, ../sass/_layouts.scss */
       body.slide-preview .logo-container img {
         max-width: 100px !important; }
     /* line 257, ../sass/_layouts.scss */
     body .slide-heading {
-      font-size: 2em !important; }
+      font-size: 2.2em !important; }
     /* line 261, ../sass/_layouts.scss */
     body .slide-text,
     body .heading-container {
