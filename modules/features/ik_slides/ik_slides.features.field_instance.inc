@@ -100,11 +100,7 @@ function ik_slides_field_default_field_instances() {
   // Exported field_instance: 'node-slide-field_ik_slide_color_theme'
   $field_instances['node-slide-field_ik_slide_color_theme'] = array(
     'bundle' => 'slide',
-    'default_value' => array(
-      0 => array(
-        'value' => 1,
-      ),
-    ),
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => 'Vælg et farve tema for denne slide.',
     'display' => array(

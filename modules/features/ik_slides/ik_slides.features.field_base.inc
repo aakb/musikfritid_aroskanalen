@@ -108,11 +108,10 @@ function ik_slides_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        1 => 'Hvid på grøn',
-        2 => 'Hvid på blå',
-        3 => 'Hvid på bordeaux',
-        4 => 'Hvid på grå',
-        5 => 'Sort på orange',
+        1 => 'Hvid baggrund (50%) med sort skrift',
+        2 => 'Sort baggrund (50%) med hvid skrift',
+        3 => 'Blå baggrund (100%) med hvid skrift',
+        4 => 'Pink baggrund (100%) med hvid skrift',
       ),
       'allowed_values_function' => '',
     ),
@@ -468,11 +467,15 @@ function ik_slides_field_default_field_bases() {
     'settings' => array(
       'allowed_values' => array(
         'layout_1' => 'Tekst til venstre',
+        'layout_4' => 'Tekst til højre',
+        'layout_9' => 'Tekst til højre halv skærm',
+        '-----' => '-----',
         'layout_2' => 'Tekst i top',
         'layout_3' => 'Tekst i bund',
-        'layout_4' => 'Tekst til højre',
+        '-----' => '-----',
         'layout_5' => 'Kun billede',
         'layout_6' => 'Kun tekst',
+        '-----' => '-----',
         'layout_7' => 'Feed import (text)',
       ),
       'allowed_values_function' => '',
