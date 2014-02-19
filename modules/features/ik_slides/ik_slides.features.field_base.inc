@@ -112,6 +112,7 @@ function ik_slides_field_default_field_bases() {
         2 => 'Sort baggrund (50%) med hvid skrift',
         3 => 'Blå baggrund (100%) med hvid skrift',
         4 => 'Pink baggrund (100%) med hvid skrift',
+        5 => '',
       ),
       'allowed_values_function' => '',
     ),
