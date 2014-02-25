@@ -141,7 +141,7 @@ var IK = (function() {
   };
 
   /**
-   * Animate the change between to slides (currently simple fade).
+   * Animate the change between two slides (currently simple fade).
    */
   Slide.prototype.animateChange = function (from, to) {
     var self = this;
@@ -193,10 +193,6 @@ var IK = (function() {
     slide.attr('id', 'slide-' + this.get('sid'));
     slide.addClass(this.get('layout'));
 
-    // Adding color scheme class
-    $('#slide-container').removeClass();
-    $('#slide-container').addClass(this.get('color'));
-
     // Either insert the slide or animate from one to the other.
     if (settings.animateChange === true) {
       // Using the slide container to ensure that we don't gets the template.
@@ -207,6 +203,9 @@ var IK = (function() {
       $('#slide-container').html(slide);
       this.startCycle();
     }
+
+    // Add the color class to the given slide.
+    $('#slide-' + this.get('sid')).addClass(this.get('color'));
 
     // Animate the progress bar
     $('#progress').stop(true,true);
