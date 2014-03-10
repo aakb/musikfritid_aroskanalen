@@ -552,7 +552,10 @@ function ik_slide_preview_build_slide($entity) {
  * Returns an array with color codes for the selected color theme.
  *
  * @param int $value
- *  Value from color theme field.
+ *   Value from color theme field.
+ *
+ * @return string
+ *   Name of the color theme selected.
  */
 function ik_slide_select_color_theme($value) {
   switch ($value) {
@@ -575,5 +578,6 @@ function ik_slide_select_color_theme($value) {
     default:
       $color_theme = 'white-black';
   }
+
   return $color_theme;
 }
