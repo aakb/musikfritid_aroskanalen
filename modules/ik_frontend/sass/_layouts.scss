@@ -60,9 +60,11 @@
 /*
 * Layouts default styling
 */
-#pure-template{
+#pure-template-image,
+#pure-template-video {
   display: none;
 }
+
 #slide-container {
   width: 100%;
   height: 100%;
