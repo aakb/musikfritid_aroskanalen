@@ -33,7 +33,7 @@ function ik_slides_field_group_info() {
       'formatter' => 'collapsible',
       'instance_settings' => array(
         'description' => '',
-        'classes' => '',
+        'classes' => ' group-ik-basic-information field-group-fieldset',
         'required_fields' => 1,
       ),
     ),
@@ -61,7 +61,7 @@ function ik_slides_field_group_info() {
       'formatter' => 'collapsible',
       'instance_settings' => array(
         'description' => '',
-        'classes' => '',
+        'classes' => ' group-ik-slide-categories field-group-fieldset',
         'required_fields' => 1,
       ),
     ),
@@ -88,7 +88,7 @@ function ik_slides_field_group_info() {
       'formatter' => 'collapsible',
       'instance_settings' => array(
         'description' => '',
-        'classes' => '',
+        'classes' => ' group-ik-slide-department field-group-fieldset',
         'required_fields' => 1,
       ),
     ),
@@ -116,7 +116,7 @@ function ik_slides_field_group_info() {
       'formatter' => 'collapsible',
       'instance_settings' => array(
         'description' => '',
-        'classes' => '',
+        'classes' => ' group-ik-slide-design field-group-fieldset',
         'required_fields' => 1,
       ),
     ),
@@ -137,14 +137,14 @@ function ik_slides_field_group_info() {
     'weight' => '3',
     'children' => array(
       0 => 'field_ik_slide_media',
-      1 => 'field_ik_slide_transition_effect',
+      1 => 'field_ik_video',
     ),
     'format_type' => 'fieldset',
     'format_settings' => array(
       'label' => 'Images',
       'instance_settings' => array(
         'required_fields' => 1,
-        'classes' => '',
+        'classes' => ' group-ik-slide-images field-group-fieldset',
         'description' => '',
       ),
       'formatter' => 'collapsible',
@@ -173,7 +173,7 @@ function ik_slides_field_group_info() {
       'label' => 'Import',
       'instance_settings' => array(
         'required_fields' => 0,
-        'classes' => '',
+        'classes' => ' group-ik-slide-import field-group-fieldset',
         'description' => '',
       ),
       'formatter' => 'collapsed',
@@ -201,7 +201,7 @@ function ik_slides_field_group_info() {
       'label' => 'Layout',
       'instance_settings' => array(
         'required_fields' => 1,
-        'classes' => '',
+        'classes' => ' group-ik-slide-layout field-group-fieldset',
         'description' => '',
       ),
       'formatter' => 'collapsed',
@@ -230,7 +230,7 @@ function ik_slides_field_group_info() {
       'formatter' => 'collapsible',
       'instance_settings' => array(
         'description' => '',
-        'classes' => '',
+        'classes' => ' group-ik-slide-template field-group-fieldset',
         'required_fields' => 1,
       ),
     ),
