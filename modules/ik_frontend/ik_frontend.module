@@ -107,7 +107,7 @@ function ik_frontend_node_update($node) {
   }
   if ($node->type == 'slide') {
     // Remove node from slides cache.
-//    cache_clear_all('slide_' . $node->nid, 'cache_ik_frontend');
+    cache_clear_all('slide_' . $node->nid, 'cache_ik_frontend');
   }
 }
 
@@ -160,7 +160,7 @@ function ik_frontend_get_slides($token, $entity) {
       $field = $entity->$fieldname;
       if (!empty($field)) {
         foreach ($field as $lang => $data) {
-          $values[$fieldname] = check_plain($data[0]['data']);
+          $values[$fieldname] = $data[0]['data'];
         }
       }
     }
@@ -257,11 +257,39 @@ function ik_frontend_fetch_slide($sid, $json = TRUE, $reset = FALSE) {
       $slide->transition = $data[0]['value'];
     }
 
-    $slide->media = array();
+    $slide->media = array(
+      'image' => array(),
+      'video' => array(),
+    );
+
+    // Try loading images.
     if ($data = field_get_items('node', $entity, 'field_ik_slide_media')) {
       foreach ($data as $media) {
         $file = file_load($media['fid']);
-        $slide->media[$media['fid']] = image_style_url('slide_images', $file->uri);
+        $slide->media['image'][] = image_style_url('slide_images', $file->uri);
+      }
+    }
+
+    if (empty($slide->media['image'])) {
+      if ($data = field_get_items('node', $entity, 'field_ik_video')) {
+        $files = _video_field_get_all_converted(array(
+          array(
+            'fid' => $data[0]['fid'],
+          ),
+        ));
+
+        // Load the video queues to get duration.
+        $queues = db_select('video_queue', 'q')
+          ->fields('q', array('duration'))
+          ->condition('q.fid', $data[0]['fid'])->execute()->fetchAssoc();
+
+        foreach ($files as $file) {
+          $slide->media['video'][] = array(
+            'url' => file_create_url($file['uri']),
+            'type' => $file['filemime'],
+            'duration' => $queues['duration'],
+          );
+        }
       }
     }
 
@@ -281,8 +309,13 @@ function ik_frontend_fetch_slide($sid, $json = TRUE, $reset = FALSE) {
       $slide->exposure = $data[0]['value'] * 1000;
     }
 
+    // If video is selected change expore to video duration.
+    if (!empty($slide->media['video'])) {
+      $slide->exposure = $slide->media['video'][0]['duration'] * 1000;
+    }
+
     // Amount of media on slide, used to calculate interval.
-    $slide->mediacount = count($slide->media);
+    $slide->mediacount = empty($slide->media['image']) ? count($slide->media['video']) : count($slide->media['image']);
 
     $slide->layout = 'layout-1';
     if ($data = field_get_items('node', $entity, 'field_layout')) {
@@ -303,6 +336,32 @@ function ik_frontend_fetch_slide($sid, $json = TRUE, $reset = FALSE) {
 }
 
 /**
+ * Returns the name of the font size selected.
+ *
+ * @param int $value
+ *   Value from the font size field.
+ *
+ * @return string
+ *   Selected font size.
+ */
+function ik_frontend_select_font_size($value) {
+  switch ($value) {
+    case 0:
+      $font_size = 'normal';
+      break;
+
+    case 1:
+      $font_size = 'bigger';
+      break;
+
+    default:
+      $font_size = 'normal';
+  }
+
+  return $font_size;
+}
+
+/**
  * Returns an array with color codes for the selected color theme.
  *
  * @param int $value
@@ -314,27 +373,23 @@ function ik_frontend_fetch_slide($sid, $json = TRUE, $reset = FALSE) {
 function ik_frontend_select_color_theme($value) {
   switch ($value) {
     case 1:
-      $color_theme = 'white-green';
+      $color_theme = 'white-black';
       break;
 
     case 2:
-      $color_theme = 'white-blue';
+      $color_theme = 'black-white';
       break;
 
     case 3:
-      $color_theme = 'white-bordeaux';
+      $color_theme = 'sport-blue';
       break;
 
     case 4:
-      $color_theme = 'white-grey';
-      break;
-
-    case 5:
-      $color_theme = 'black-orange';
+      $color_theme = 'sport-pink';
       break;
 
     default:
-      $color_theme = 'white-green';
+      $color_theme = 'white-black';
   }
 
   return $color_theme;

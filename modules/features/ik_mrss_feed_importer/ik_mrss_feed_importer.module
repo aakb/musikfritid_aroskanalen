@@ -10,7 +10,7 @@ include_once 'ik_mrss_feed_importer.features.inc';
  * Hook_form_alter()
  * Change the labels on select layout radio buttons.
  */
-function ik_mrss_feed_importer_form_media_rss_slide_import_node_form_alter(&$form, &$form_state, $form_id) {
+/*function ik_mrss_feed_importer_form_media_rss_slide_import_node_form_alter(&$form, &$form_state, $form_id) {
   $path = drupal_get_path('module', 'ik_slides');
   $form["field_layout"]["und"]["#options"] = array(
     'layout_1' => theme('image', array('path' => $path . '/layout-images/layout_1.png', 'alt' => t('Text to the left'), 'title' => t('Text to the left'))),
@@ -22,7 +22,7 @@ function ik_mrss_feed_importer_form_media_rss_slide_import_node_form_alter(&$for
     'layout_6' => theme('image', array('path' => $path . '/layout-images/layout_6.png', 'alt' => t('Text only'), 'title' => t('Text only'))),
     'layout_7' => theme('image', array('path' => $path . '/layout-images/layout_7.png', 'alt' => t('Feed import (text)'), 'title' => t('Feed import (text)')))
   );
-}
+}*/
 
 /**
  * Defines a new feeds parser to Yahoo Search Media RSS feeds. You can read

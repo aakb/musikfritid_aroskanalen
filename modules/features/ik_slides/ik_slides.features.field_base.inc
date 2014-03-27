@@ -108,11 +108,11 @@ function ik_slides_field_default_field_bases() {
     'module' => 'list',
     'settings' => array(
       'allowed_values' => array(
-        1 => 'Hvid på grøn',
-        2 => 'Hvid på blå',
-        3 => 'Hvid på bordeaux',
-        4 => 'Hvid på grå',
-        5 => 'Sort på orange',
+        1 => 'Musikhuset 1 – hvid med sort skrift',
+        2 => 'Musikhuset 2 – sort med hvid skrift',
+        3 => 'Sport & Fritid 1 – blå',
+        4 => 'Sport & Fritid 2 - pink',
+        5 => '',
       ),
       'allowed_values_function' => '',
     ),
@@ -418,36 +418,53 @@ function ik_slides_field_default_field_bases() {
     'type' => 'text_long',
   );
 
-  // Exported field_base: 'field_ik_slide_transition_effect'
-  $field_bases['field_ik_slide_transition_effect'] = array(
+  // Exported field_base: 'field_ik_video'
+  $field_bases['field_ik_video'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_ik_slide_transition_effect',
-    'foreign keys' => array(),
+    'field_name' => 'field_ik_video',
+    'foreign keys' => array(
+      'fid' => array(
+        'columns' => array(
+          'fid' => 'fid',
+        ),
+        'table' => 'file_managed',
+      ),
+    ),
     'indexes' => array(
-      'value' => array(
-        0 => 'value',
+      'fid' => array(
+        0 => 'fid',
       ),
     ),
     'locked' => 0,
-    'module' => 'list',
+    'module' => 'video',
     'settings' => array(
-      'allowed_values' => array(
-        'fade' => 'Fade',
-        'cubeHide' => 'Cube Hide',
-        'showBars' => 'Bars',
-        'paralell' => 'Paralell',
-        'directionTop' => 'Direction Top',
-        'directionBottom' => 'Direction Bottom',
-        'directionRight' => 'Direction Right',
-        'directionLeft' => 'Direction Left',
+      'autoconversion' => 1,
+      'autothumbnail' => 'auto',
+      'default_video_thumbnail' => array(
+        'fid' => 0,
+        'remove_button' => 'Fjern',
+        'upload' => '',
+        'upload_button' => 'Upload',
       ),
-      'allowed_values_function' => '',
+      'presets' => array(
+        'FLV' => 0,
+        'HTML5 MP4' => 0,
+        'Mp4' => 'Mp4',
+        'Ogg' => 0,
+        'Ogv' => 0,
+        'WebM' => 'WebM',
+      ),
+      'preview_video_thumb_style' => 'thumbnail',
+      'thumbnail_format' => 'jpg',
+      'uri_scheme' => 'public',
+      'uri_scheme_converted' => 'public',
+      'uri_scheme_thumbnails' => 'public',
     ),
     'translatable' => 0,
-    'type' => 'list_text',
+    'type' => 'video',
   );
 
   // Exported field_base: 'field_layout'
@@ -468,9 +485,10 @@ function ik_slides_field_default_field_bases() {
     'settings' => array(
       'allowed_values' => array(
         'layout_1' => 'Tekst til venstre',
+        'layout_4' => 'Tekst til højre',
+        'layout_9' => 'Tekst til højre halv skærm',
         'layout_2' => 'Tekst i top',
         'layout_3' => 'Tekst i bund',
-        'layout_4' => 'Tekst til højre',
         'layout_5' => 'Kun billede',
         'layout_6' => 'Kun tekst',
         'layout_7' => 'Feed import (text)',

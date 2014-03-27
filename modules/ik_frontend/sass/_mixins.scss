@@ -135,3 +135,8 @@ $rem-with-px-fallback: true !default;
   // Use rem values for everyone else (overrides pixel values).
   #{$property}: $rem-values;
 }
+
+@mixin background-opacity($color, $opacity: 0.3) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}

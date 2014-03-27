@@ -38,29 +38,6 @@ var IK = (function() {
     this.token = token;
     this.sid = sid;
 
-    // Build directive for PURE.
-    this.directive = {
-      '.image-container img' : {
-        'medium<-media' : {
-          '@src' : 'medium'
-        }
-      },
-      '.slide-heading' : 'title',
-      '.slide-subheading' : 'subheading',
-      '.slide-text' : 'text',
-      '.logo-container img@src' : 'logo',
-      '.logo-container@style' : function (arg) {
-        if (arg.context.logo) {
-          return 'display:block;';
-        } else {
-          return 'display:none;';
-        }
-      }
-    };
-
-    // Compile template with the directive.
-    this.template = $('#pure-template').compile(this.directive);
-
     // Fetch all slides for the channel
     if (fetch) {
       this.fetchSlide();
@@ -97,6 +74,56 @@ var IK = (function() {
    */
   Slide.prototype.processSlide = function (data) {
     log('Slide ' + this.sid + ' fetched.');
+
+    // Build directive for PURE based on type.
+    if (data.media.video.length) {
+      this.directive = {
+        '.video-container source' : {
+          'medium<-media.video' : {
+            '@src' : 'medium.url',
+            '@type' : 'medium.type'
+          }
+        },
+        '.slide-heading' : 'title',
+        '.slide-subheading' : 'subheading',
+        '.slide-text' : 'text',
+        '.logo-container img@src' : 'logo',
+        '.logo-container@style' : function (arg) {
+          if (arg.context.logo) {
+            return 'display:block;';
+          } else {
+            return 'display:none;';
+          }
+        }
+      };
+
+      // Compile template with the directive.
+      this.template = $('#pure-template-video').compile(this.directive);
+    }
+    else {
+      this.directive = {
+        '.image-container img' : {
+          'medium<-media.image' : {
+            '@src' : 'medium'
+          }
+        },
+        '.slide-heading' : 'title',
+        '.slide-subheading' : 'subheading',
+        '.slide-text' : 'text',
+        '.logo-container img@src' : 'logo',
+        '.logo-container@style' : function (arg) {
+          if (arg.context.logo) {
+            return 'display:block;';
+          } else {
+            return 'display:none;';
+          }
+        }
+      };
+
+      // Compile template with the directive.
+      this.template = $('#pure-template-image').compile(this.directive);
+    }
+
     this.propreties = data;
   };
 
@@ -192,10 +219,7 @@ var IK = (function() {
     // outer element, which can't be accessed in pure.
     slide.attr('id', 'slide-' + this.get('sid'));
     slide.addClass(this.get('layout'));
-
-    // Adding color scheme class
-    $('#slide-container').removeClass();
-    $('#slide-container').addClass(this.get('color'));
+    slide.addClass(this.get('color'));
 
     // Either insert the slide or animate from one to the other.
     if (settings.animateChange === true) {
@@ -213,7 +237,17 @@ var IK = (function() {
     $('#progress').css('width','0px');
     $('#progress').animate({width: '100%'}, this.get('exposure'));
 
-    // Update slide count
+    // Set font-size.
+    $('.slide-text').addClass(this.get('fontsize'));
+    $('.slide-subheading').addClass(this.get('fontsize'));
+
+    // Animate the progress bar.
+    var progress = $('#progress');
+    progress.stop(true, true);
+    progress.css('width','0px');
+    progress.animate({width: '100%'}, this.get('exposure'));
+
+    // Update slide count.
     if (channel) {
       var currentSlideCount = channel.currentSlide + 1;
       var channelSlideAmount = channel.slides.length;
@@ -269,7 +303,7 @@ var IK = (function() {
 
           // Check if we have any old slides and if we do run the slide show.
           if (self.slides.length !== 0) {
-            // Goto the next slide.
+            // Go to the next slide.
             self.nextSlide();
           }
           else {
@@ -348,7 +382,7 @@ var IK = (function() {
     };
 
     /**
-     * Goto the next slide.
+     * Go to the next slide.
      */
     this.nextSlide = function () {
       var self = this;
@@ -385,7 +419,7 @@ var IK = (function() {
     };
 
     /**
-     * Stops the slide show be clearing the tiem-out the changes the slides.
+     * Stops the slide show be clearing the time-out the changes the slides.
      */
     this.stop = function () {
       log('Stopping the show');
