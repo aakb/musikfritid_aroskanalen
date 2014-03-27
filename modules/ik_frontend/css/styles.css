@@ -1,15 +1,7 @@
 /*
 * Main stylesheet
 */
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 17, ../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-=======
-/* line 17, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-/* line 17, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+/* line 5, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -30,97 +22,39 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 22, ../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-=======
-/* line 22, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-=======
-/* line 22, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
->>>>>>> b98c749... Changed manchet text size to match text
-html {
-  line-height: 1; }
-
-/* line 24, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none; }
-
-<<<<<<< HEAD
-/* line 26, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-/* line 26, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+/* line 26, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 28, ../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-=======
-/* line 28, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-/* line 28, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+/* line 28, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 30, ../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-=======
-/* line 30, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none; }
-  /* line 103, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-/* line 30, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none; }
-  /* line 103, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+  /* line 103, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 32, ../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-=======
-/* line 32, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none; }
-
-/* line 116, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-/* line 32, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none; }
-
-/* line 116, ../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
->>>>>>> b98c749... Changed manchet text size to match text
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+/* line 116, ../../../../../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
 /*
@@ -134,33 +68,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  */
 @font-face {
   font-family: "AllerBold";
-  src: url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_bd-webfont.eot');
-  src: url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_bd-webfont.eot?#iefix') format('eot'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_bd-webfont.woff') format('woff'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_bd-webfont.ttf') format('truetype'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_bd-webfont.svg#allerbold') format('svg');
+  src: url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_bd-webfont.eot?1395921985');
+  src: url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_bd-webfont.eot?&1395921985#iefix') format('embedded-opentype'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_bd-webfont.woff?1395921985') format('woff'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_bd-webfont.ttf?1395921985') format('truetype'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_bd-webfont.svg?1395921985#allerbold') format('svg');
   font-weight: "normal";
   font-style: "normal"; }
-
 @font-face {
   font-family: "AllerBoldItalic";
   src: url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller_bdit-webfont.eot');
-  src: url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller_bdit-webfont.eot?#iefix') format('eot'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_bdit-webfont.woff') format('woff'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller_bdit-webfont.ttf') format('truetype'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller_bdit-webfont.svg#allerbold_italic') format('svg');
+  src: url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller_bdit-webfont.eot?#iefix') format('embedded-opentype'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_bdit-webfont.woff?1395921985') format('woff'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller_bdit-webfont.ttf') format('truetype'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller_bdit-webfont.svg#allerbold_italic') format('svg');
   font-weight: "normal";
   font-style: "normal"; }
-
 @font-face {
   font-family: "AllerItalic";
-  src: url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_it-webfont.eot');
-  src: url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_it-webfont.eot?#iefix') format('eot'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_it-webfont.woff') format('woff'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_it-webfont.ttf') format('truetype'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_it-webfont.svg#alleritalic') format('svg');
+  src: url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_it-webfont.eot?1395921985');
+  src: url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_it-webfont.eot?&1395921985#iefix') format('embedded-opentype'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_it-webfont.woff?1395921985') format('woff'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_it-webfont.ttf?1395921985') format('truetype'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_it-webfont.svg?1395921985#alleritalic') format('svg');
   font-weight: "normal";
   font-style: "normal"; }
-
 @font-face {
   font-family: "Aller";
-  src: url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_rg-webfont.eot');
-  src: url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_rg-webfont.eot?#iefix') format('eot'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_rg-webfont.woff') format('woff'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_rg-webfont.ttf') format('truetype'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_rg-webfont.svg#allerregular') format('svg');
+  src: url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_rg-webfont.eot?1395921985');
+  src: url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_rg-webfont.eot?&1395921985#iefix') format('embedded-opentype'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_rg-webfont.woff?1395921985') format('woff'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_rg-webfont.ttf?1395921985') format('truetype'), url('/sites/service.indholdskanalen.dk/modules/ik_frontend/css/fonts/aller/aller_rg-webfont.svg?1395921985#allerregular') format('svg');
   font-weight: "normal";
   font-style: "normal"; }
-
-/* line 22, ../sass/_base.scss */
+/* line 21, ../sass/_base.scss */
 html,
 body {
   width: 100%;
@@ -209,22 +139,22 @@ p {
   margin-bottom: 10px;
   margin-bottom: 0.625rem; }
 
-/* line 71, ../sass/_base.scss */
+/* line 70, ../sass/_base.scss */
 strong,
 b {
   font-family: "AllerBold", "Aller", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  /* line 75, ../sass/_base.scss */
+  /* line 74, ../sass/_base.scss */
   strong em,
   strong i,
   b em,
   b i {
     font-family: "AllerBoldItalic", "Aller", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-/* line 81, ../sass/_base.scss */
+/* line 80, ../sass/_base.scss */
 em,
 i {
   font-family: "AllerItalic", "Aller", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-  /* line 85, ../sass/_base.scss */
+  /* line 84, ../sass/_base.scss */
   em strong,
   em b,
   i strong,
@@ -320,36 +250,20 @@ h6 {
 /*
 * Layouts default styling
 */
-<<<<<<< HEAD
 /* line 63, ../sass/_layouts.scss */
-#pure-template {
-  display: none; }
-
-/* line 66, ../sass/_layouts.scss */
-#slide-container {
-  width: 100%;
-  height: 100%; }
-  /* line 71, ../sass/_layouts.scss */
-  #slide-container #pure-template {
-    display: block; }
-
-/* line 76, ../sass/_layouts.scss */
-=======
-/* line 55, ../sass/_layouts.scss */
 #pure-template-image,
 #pure-template-video {
   display: none; }
 
-/* line 59, ../sass/_layouts.scss */
+/* line 68, ../sass/_layouts.scss */
 #slide-container {
   width: 100%;
   height: 100%; }
-  /* line 64, ../sass/_layouts.scss */
+  /* line 73, ../sass/_layouts.scss */
   #slide-container #pure-template {
     display: block; }
 
-/* line 69, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
+/* line 78, ../sass/_layouts.scss */
 .slide {
   position: absolute;
   top: 0;
@@ -358,70 +272,43 @@ h6 {
   height: 100%;
   margin: 0;
   padding: 0; }
-<<<<<<< HEAD
-  /* line 85, ../sass/_layouts.scss */
-=======
-  /* line 78, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
+  /* line 87, ../sass/_layouts.scss */
   .slide .image-container {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%; }
-<<<<<<< HEAD
-    /* line 92, ../sass/_layouts.scss */
+    /* line 94, ../sass/_layouts.scss */
     .slide .image-container img {
       display: none; }
-    /* line 96, ../sass/_layouts.scss */
+    /* line 98, ../sass/_layouts.scss */
     .slide .image-container a {
       pointer-events: none;
       cursor: default; }
-  /* line 102, ../sass/_layouts.scss */
-=======
-    /* line 85, ../sass/_layouts.scss */
-    .slide .image-container img {
-      display: none; }
-    /* line 89, ../sass/_layouts.scss */
-    .slide .image-container a {
-      pointer-events: none;
-      cursor: default; }
-  /* line 95, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
+  /* line 104, ../sass/_layouts.scss */
   .slide .text-wrapper {
-    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     z-index: 19999;
     padding: 40px;
     position: absolute; }
-<<<<<<< HEAD
-  /* line 110, ../sass/_layouts.scss */
-=======
-  /* line 103, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
+  /* line 112, ../sass/_layouts.scss */
   .slide .text-container {
-    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     z-index: 20000;
     overflow: hidden;
     position: relative; }
-<<<<<<< HEAD
-    /* line 118, ../sass/_layouts.scss */
-=======
-    /* line 111, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
+    /* line 120, ../sass/_layouts.scss */
     .slide .text-container .heading-container {
-      -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       padding: 20px; }
-<<<<<<< HEAD
-    /* line 123, ../sass/_layouts.scss */
-=======
-    /* line 116, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
+    /* line 125, ../sass/_layouts.scss */
     .slide .text-container .slide-heading {
       display: block;
       width: 100%;
@@ -429,75 +316,35 @@ h6 {
       font-family: "AllerBold", "Aller", "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 5em;
       text-transform: uppercase; }
-<<<<<<< HEAD
-    /* line 132, ../sass/_layouts.scss */
-=======
-    /* line 125, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
+    /* line 134, ../sass/_layouts.scss */
     .slide .text-container .slide-subheading {
       display: block;
       width: 100%;
       font-family: "AllerBold", "Aller", "Helvetica Neue", Helvetica, Arial, sans-serif;
-<<<<<<< HEAD
       font-size: 3em; }
-    /* line 139, ../sass/_layouts.scss */
-=======
-      font-size: 1.625em; }
-<<<<<<< HEAD
-    /* line 132, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-      /* line 131, ../sass/_layouts.scss */
+      /* line 140, ../sass/_layouts.scss */
       .slide .text-container .slide-subheading.bigger {
-        font-size: 2.275em; }
-    /* line 136, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+        font-size: 4.2em; }
+    /* line 145, ../sass/_layouts.scss */
     .slide .text-container .slide-text {
-      -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       display: block;
       width: 100%;
       padding: 20px;
-<<<<<<< HEAD
       font-size: 2.5em;
       line-height: 1.5em; }
-  /* line 150, ../sass/_layouts.scss */
-=======
-      font-size: 1.5em;
-      line-height: 1.65em; }
-      /* line 145, ../sass/_layouts.scss */
-      .slide .text-container .slide-text.bigger {
-        font-size: 2.1em; }
-<<<<<<< HEAD
-  /* line 147, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-  /* line 151, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+  /* line 156, ../sass/_layouts.scss */
   .slide .logo-container {
     z-index: 21000;
     position: absolute;
     bottom: 20px;
     right: 40px; }
-<<<<<<< HEAD
-<<<<<<< HEAD
-    /* line 156, ../sass/_layouts.scss */
+    /* line 162, ../sass/_layouts.scss */
     .slide .logo-container img {
       max-width: 350px; }
-  /* line 161, ../sass/_layouts.scss */
-=======
-    /* line 153, ../sass/_layouts.scss */
-    .slide .logo-container img {
-      max-width: 350px; }
-  /* line 158, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-    /* line 157, ../sass/_layouts.scss */
-    .slide .logo-container img {
-      max-width: 350px; }
-  /* line 162, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+  /* line 167, ../sass/_layouts.scss */
   .slide .rss-icon {
     z-index: 22000;
     display: none; }
@@ -506,178 +353,78 @@ h6 {
 * Media queries
 */
 @media (max-width: 1300px) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  /* line 172, ../sass/_layouts.scss */
+  /* line 178, ../sass/_layouts.scss */
   body {
     font-size: 0.66667em;
     color: #f517d5 !important; }
-    /* line 176, ../sass/_layouts.scss */
+    /* line 182, ../sass/_layouts.scss */
     body.slide-preview {
       font-size: 0.5em; }
-      /* line 179, ../sass/_layouts.scss */
+      /* line 185, ../sass/_layouts.scss */
       body.slide-preview .slide-heading {
         font-size: 2.5em !important; }
-      /* line 183, ../sass/_layouts.scss */
+      /* line 189, ../sass/_layouts.scss */
       body.slide-preview .logo-container img {
         max-width: 250px !important; }
-    /* line 189, ../sass/_layouts.scss */
+    /* line 195, ../sass/_layouts.scss */
     body .slide-heading {
       font-size: 3.33333em !important; }
-    /* line 193, ../sass/_layouts.scss */
-=======
-  /* line 169, ../sass/_layouts.scss */
-=======
-  /* line 173, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
-  body {
-    font-size: 0.66667em;
-    color: #f517d5 !important; }
-    /* line 177, ../sass/_layouts.scss */
-    body.slide-preview {
-      font-size: 0.5em; }
-      /* line 180, ../sass/_layouts.scss */
-      body.slide-preview .slide-heading {
-        font-size: 2.25em !important; }
-      /* line 184, ../sass/_layouts.scss */
-      body.slide-preview .logo-container img {
-        max-width: 250px !important; }
-    /* line 190, ../sass/_layouts.scss */
-    body .slide-heading {
-      font-size: 3em !important; }
-<<<<<<< HEAD
-    /* line 190, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-    /* line 194, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+    /* line 198, ../sass/_layouts.scss */
     body .slide-text,
     body .heading-container {
       padding: 16.66667px !important; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  /* line 199, ../sass/_layouts.scss */
+  /* line 205, ../sass/_layouts.scss */
   .slide .logo-container img {
     max-width: 350px; } }
 @media (max-width: 800px) {
-  /* line 206, ../sass/_layouts.scss */
+  /* line 212, ../sass/_layouts.scss */
   body {
     font-size: 0.5em;
     color: #ff6600 !important; }
-    /* line 210, ../sass/_layouts.scss */
+    /* line 216, ../sass/_layouts.scss */
     body.slide-preview {
       font-size: 0.4em; }
-      /* line 213, ../sass/_layouts.scss */
+      /* line 219, ../sass/_layouts.scss */
       body.slide-preview .slide-heading {
         font-size: 2em !important; }
-      /* line 217, ../sass/_layouts.scss */
+      /* line 223, ../sass/_layouts.scss */
       body.slide-preview .logo-container img {
         max-width: 150px !important; }
-    /* line 223, ../sass/_layouts.scss */
+    /* line 229, ../sass/_layouts.scss */
     body .slide-heading {
       font-size: 2.5em !important; }
-    /* line 227, ../sass/_layouts.scss */
-=======
-  /* line 196, ../sass/_layouts.scss */
-=======
-  /* line 200, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
-  .slide .logo-container img {
-    max-width: 350px; } }
-@media (max-width: 800px) {
-  /* line 207, ../sass/_layouts.scss */
-  body {
-    font-size: 0.5em;
-    color: #ff6600 !important; }
-    /* line 211, ../sass/_layouts.scss */
-    body.slide-preview {
-      font-size: 0.4em; }
-      /* line 214, ../sass/_layouts.scss */
-      body.slide-preview .slide-heading {
-        font-size: 1.8em !important; }
-      /* line 218, ../sass/_layouts.scss */
-      body.slide-preview .logo-container img {
-        max-width: 150px !important; }
-    /* line 224, ../sass/_layouts.scss */
-    body .slide-heading {
-      font-size: 2.25em !important; }
-<<<<<<< HEAD
-    /* line 224, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-    /* line 228, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+    /* line 232, ../sass/_layouts.scss */
     body .slide-text,
     body .heading-container {
       padding: 13.33333px !important; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  /* line 233, ../sass/_layouts.scss */
+  /* line 239, ../sass/_layouts.scss */
   .slide .logo-container img {
     max-width: 200px; } }
 @media (max-width: 500px) {
-  /* line 240, ../sass/_layouts.scss */
+  /* line 246, ../sass/_layouts.scss */
   body {
     font-size: 0.4em;
     color: #5df51b !important; }
-    /* line 244, ../sass/_layouts.scss */
+    /* line 250, ../sass/_layouts.scss */
     body.slide-preview {
       font-size: 0.33333em; }
-      /* line 247, ../sass/_layouts.scss */
+      /* line 253, ../sass/_layouts.scss */
       body.slide-preview .slide-heading {
         font-size: 1.66667em !important; }
-      /* line 251, ../sass/_layouts.scss */
+      /* line 257, ../sass/_layouts.scss */
       body.slide-preview .logo-container img {
         max-width: 100px !important; }
-    /* line 257, ../sass/_layouts.scss */
+    /* line 263, ../sass/_layouts.scss */
     body .slide-heading {
       font-size: 2em !important; }
-    /* line 261, ../sass/_layouts.scss */
-=======
-  /* line 230, ../sass/_layouts.scss */
-=======
-  /* line 234, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
-  .slide .logo-container img {
-    max-width: 200px; } }
-@media (max-width: 500px) {
-  /* line 241, ../sass/_layouts.scss */
-  body {
-    font-size: 0.4em;
-    color: #5df51b !important; }
-    /* line 245, ../sass/_layouts.scss */
-    body.slide-preview {
-      font-size: 0.33333em; }
-      /* line 248, ../sass/_layouts.scss */
-      body.slide-preview .slide-heading {
-        font-size: 1.5em !important; }
-      /* line 252, ../sass/_layouts.scss */
-      body.slide-preview .logo-container img {
-        max-width: 100px !important; }
-    /* line 258, ../sass/_layouts.scss */
-    body .slide-heading {
-      font-size: 1.8em !important; }
-<<<<<<< HEAD
-    /* line 258, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-    /* line 262, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+    /* line 266, ../sass/_layouts.scss */
     body .slide-text,
     body .heading-container {
       padding: 11.11111px !important; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  /* line 267, ../sass/_layouts.scss */
-=======
-  /* line 264, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-  /* line 268, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+  /* line 273, ../sass/_layouts.scss */
   .slide .logo-container img {
     max-width: 150px; } }
 /*
@@ -695,29 +442,13 @@ h6 {
 * ---------------------------
 *
 */
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 291, ../sass/_layouts.scss */
-=======
-/* line 288, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-/* line 292, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+/* line 297, ../sass/_layouts.scss */
 .layout-1 .text-wrapper {
   top: 0;
   left: 0;
   width: 35%;
   height: 100%; }
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 298, ../sass/_layouts.scss */
-=======
-/* line 295, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-/* line 299, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+/* line 304, ../sass/_layouts.scss */
 .layout-1 .text-container {
   width: 100%;
   height: 100%; }
@@ -737,49 +468,22 @@ h6 {
 * ---------------------------
 *
 */
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 322, ../sass/_layouts.scss */
-.layout-2 .text-wrapper {
-  top: 0;
-  width: 100%; }
-/* line 327, ../sass/_layouts.scss */
-.layout-2 .text-container {
-  width: 100%; }
-  /* line 330, ../sass/_layouts.scss */
-  .layout-2 .text-container .heading-container {
-    width: 49.5%;
-    float: left; }
-  /* line 335, ../sass/_layouts.scss */
-  .layout-2 .text-container .slide-heading {
-    margin-bottom: 10px;
-    margin-bottom: 0.625rem; }
-  /* line 339, ../sass/_layouts.scss */
-=======
-/* line 319, ../sass/_layouts.scss */
-=======
-/* line 323, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
-.layout-2 .text-wrapper {
-  top: 0;
-  width: 100%; }
 /* line 328, ../sass/_layouts.scss */
+.layout-2 .text-wrapper {
+  top: 0;
+  width: 100%; }
+/* line 333, ../sass/_layouts.scss */
 .layout-2 .text-container {
   width: 100%; }
-  /* line 331, ../sass/_layouts.scss */
+  /* line 336, ../sass/_layouts.scss */
   .layout-2 .text-container .heading-container {
     width: 49.5%;
     float: left; }
-  /* line 336, ../sass/_layouts.scss */
+  /* line 341, ../sass/_layouts.scss */
   .layout-2 .text-container .slide-heading {
     margin-bottom: 10px;
     margin-bottom: 0.625rem; }
-<<<<<<< HEAD
-  /* line 336, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-  /* line 340, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+  /* line 345, ../sass/_layouts.scss */
   .layout-2 .text-container .slide-text {
     width: 49.5%;
     float: left; }
@@ -799,57 +503,26 @@ h6 {
 * ---------------------------
 *
 */
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 364, ../sass/_layouts.scss */
-.layout-3 .text-wrapper {
-  bottom: 0;
-  width: 100%; }
-/* line 369, ../sass/_layouts.scss */
-.layout-3 .text-container {
-  width: 100%; }
-  /* line 372, ../sass/_layouts.scss */
-  .layout-3 .text-container .heading-container {
-    width: 49.5%;
-    float: left; }
-  /* line 377, ../sass/_layouts.scss */
-  .layout-3 .text-container .slide-heading {
-    margin-bottom: 10px;
-    margin-bottom: 0.625rem; }
-  /* line 381, ../sass/_layouts.scss */
-  .layout-3 .text-container .slide-text {
-    width: 49.5%;
-    float: left; }
-/* line 387, ../sass/_layouts.scss */
-=======
-/* line 361, ../sass/_layouts.scss */
-=======
-/* line 365, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
-.layout-3 .text-wrapper {
-  bottom: 0;
-  width: 100%; }
 /* line 370, ../sass/_layouts.scss */
+.layout-3 .text-wrapper {
+  bottom: 0;
+  width: 100%; }
+/* line 375, ../sass/_layouts.scss */
 .layout-3 .text-container {
   width: 100%; }
-  /* line 373, ../sass/_layouts.scss */
+  /* line 378, ../sass/_layouts.scss */
   .layout-3 .text-container .heading-container {
     width: 49.5%;
     float: left; }
-  /* line 378, ../sass/_layouts.scss */
+  /* line 383, ../sass/_layouts.scss */
   .layout-3 .text-container .slide-heading {
     margin-bottom: 10px;
     margin-bottom: 0.625rem; }
-  /* line 382, ../sass/_layouts.scss */
+  /* line 387, ../sass/_layouts.scss */
   .layout-3 .text-container .slide-text {
     width: 49.5%;
     float: left; }
-<<<<<<< HEAD
-/* line 384, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-/* line 388, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+/* line 393, ../sass/_layouts.scss */
 .layout-3 .logo-container {
   bottom: auto;
   top: 35px; }
@@ -869,41 +542,17 @@ h6 {
 * ---------------------------
 *
 */
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 411, ../sass/_layouts.scss */
-=======
-/* line 408, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-/* line 412, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+/* line 417, ../sass/_layouts.scss */
 .layout-4 .text-wrapper {
   top: 0;
   right: 0;
   width: 35%;
   height: 100%; }
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 418, ../sass/_layouts.scss */
-.layout-4 .text-container {
-  width: 100%;
-  height: 100%; }
-/* line 423, ../sass/_layouts.scss */
-=======
-/* line 415, ../sass/_layouts.scss */
-.layout-4 .text-container {
-  width: 100%;
-  height: 100%; }
-/* line 420, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-/* line 419, ../sass/_layouts.scss */
-.layout-4 .text-container {
-  width: 100%;
-  height: 100%; }
 /* line 424, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+.layout-4 .text-container {
+  width: 100%;
+  height: 100%; }
+/* line 429, ../sass/_layouts.scss */
 .layout-4 .logo-container {
   bottom: auto;
   right: auto;
@@ -925,15 +574,7 @@ h6 {
 * ---------------------------
 *
 */
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 448, ../sass/_layouts.scss */
-=======
-/* line 445, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-/* line 449, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+/* line 454, ../sass/_layouts.scss */
 .layout-5 .text-wrapper {
   display: none; }
 
@@ -952,46 +593,18 @@ h6 {
 * ---------------------------
 *
 */
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 470, ../sass/_layouts.scss */
+/* line 476, ../sass/_layouts.scss */
 .layout-6 .image-container {
   display: none; }
-/* line 474, ../sass/_layouts.scss */
-.layout-6 .text-wrapper {
-  padding: 0; }
-/* line 478, ../sass/_layouts.scss */
-=======
-/* line 467, ../sass/_layouts.scss */
-=======
-/* line 471, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
-.layout-6 .image-container {
-  display: none; }
-/* line 475, ../sass/_layouts.scss */
-.layout-6 .text-wrapper {
-  padding: 0; }
-<<<<<<< HEAD
-/* line 475, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-/* line 479, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
-.layout-6 .text-container {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
-  border-radius: 0; }
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 483, ../sass/_layouts.scss */
-=======
 /* line 480, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
+.layout-6 .text-wrapper {
+  padding: 0; }
 /* line 484, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+.layout-6 .text-container {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+/* line 488, ../sass/_layouts.scss */
 .layout-6 .text-wrapper,
 .layout-6 .text-container {
   width: 100%;
@@ -1012,73 +625,34 @@ h6 {
 * ---------------------------
 *
 */
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 507, ../sass/_layouts.scss */
-.layout-7 .text-wrapper {
-  top: 0;
-  width: 100%; }
-/* line 512, ../sass/_layouts.scss */
-.layout-7 .text-container {
-  width: 100%; }
-  /* line 515, ../sass/_layouts.scss */
-  .layout-7 .text-container .heading-container {
-    width: 45.5%;
-    float: left; }
-  /* line 520, ../sass/_layouts.scss */
-  .layout-7 .text-container .slide-heading {
-    margin-bottom: 10px;
-    margin-bottom: 0.625rem; }
-  /* line 524, ../sass/_layouts.scss */
-  .layout-7 .text-container .slide-subheading {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-    opacity: 0.5; }
-  /* line 528, ../sass/_layouts.scss */
-  .layout-7 .text-container .slide-text {
-    width: 53.5%;
-    float: left; }
-/* line 534, ../sass/_layouts.scss */
-.layout-7 .logo-container {
-  right: auto;
-  left: 40px; }
-/* line 539, ../sass/_layouts.scss */
-=======
-/* line 504, ../sass/_layouts.scss */
-=======
-/* line 508, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
-.layout-7 .text-wrapper {
-  top: 0;
-  width: 100%; }
 /* line 513, ../sass/_layouts.scss */
+.layout-7 .text-wrapper {
+  top: 0;
+  width: 100%; }
+/* line 518, ../sass/_layouts.scss */
 .layout-7 .text-container {
   width: 100%; }
-  /* line 516, ../sass/_layouts.scss */
+  /* line 521, ../sass/_layouts.scss */
   .layout-7 .text-container .heading-container {
     width: 45.5%;
     float: left; }
-  /* line 521, ../sass/_layouts.scss */
+  /* line 526, ../sass/_layouts.scss */
   .layout-7 .text-container .slide-heading {
     margin-bottom: 10px;
     margin-bottom: 0.625rem; }
-  /* line 525, ../sass/_layouts.scss */
+  /* line 530, ../sass/_layouts.scss */
   .layout-7 .text-container .slide-subheading {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
     opacity: 0.5; }
-  /* line 529, ../sass/_layouts.scss */
+  /* line 534, ../sass/_layouts.scss */
   .layout-7 .text-container .slide-text {
     width: 53.5%;
     float: left; }
-/* line 535, ../sass/_layouts.scss */
+/* line 540, ../sass/_layouts.scss */
 .layout-7 .logo-container {
   right: auto;
   left: 40px; }
-<<<<<<< HEAD
-/* line 536, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-/* line 540, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+/* line 545, ../sass/_layouts.scss */
 .layout-7 .rss-icon {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
   opacity: 0.2;
@@ -1106,57 +680,25 @@ h6 {
 * ---------------------------
 *
 */
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 572, ../sass/_layouts.scss */
-=======
-/* line 569, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-/* line 573, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+/* line 578, ../sass/_layouts.scss */
 .layout-8 .text-wrapper {
   top: 0;
   left: 0;
   width: 35%;
   height: 100%; }
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* line 579, ../sass/_layouts.scss */
-.layout-8 .text-container {
-  width: 100%;
-  height: 100%; }
-/* line 584, ../sass/_layouts.scss */
-=======
-/* line 576, ../sass/_layouts.scss */
-.layout-8 .text-container {
-  width: 100%;
-  height: 100%; }
-/* line 581, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-/* line 580, ../sass/_layouts.scss */
-.layout-8 .text-container {
-  width: 100%;
-  height: 100%; }
 /* line 585, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+.layout-8 .text-container {
+  width: 100%;
+  height: 100%; }
+/* line 590, ../sass/_layouts.scss */
 .layout-8 .image-container {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   position: relative;
   padding: 40px;
   padding-left: 40%; }
-<<<<<<< HEAD
-<<<<<<< HEAD
-  /* line 592, ../sass/_layouts.scss */
-=======
-  /* line 589, ../sass/_layouts.scss */
->>>>>>> 6104070... Added new pure template to handle video
-=======
-  /* line 593, ../sass/_layouts.scss */
->>>>>>> b98c749... Changed manchet text size to match text
+  /* line 598, ../sass/_layouts.scss */
   .layout-8 .image-container img {
     max-width: 890px;
     height: auto;
@@ -1177,17 +719,17 @@ h6 {
 * ---------------------------
 *
 */
-/* line 619, ../sass/_layouts.scss */
+/* line 625, ../sass/_layouts.scss */
 .layout-9 .text-wrapper {
   top: 0;
   right: 0;
   width: 50%;
   height: 100%; }
-/* line 626, ../sass/_layouts.scss */
+/* line 632, ../sass/_layouts.scss */
 .layout-9 .text-container {
   width: 100%;
   height: 100%; }
-/* line 631, ../sass/_layouts.scss */
+/* line 637, ../sass/_layouts.scss */
 .layout-9 .logo-container {
   bottom: auto;
   right: auto;
