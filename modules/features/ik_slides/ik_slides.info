@@ -139,3 +139,5 @@ features[variable][] = scheduler_publish_touch_slide
 features[variable][] = scheduler_unpublish_enable_slide
 features[variable][] = scheduler_unpublish_required_slide
 features[variable][] = scheduler_unpublish_revision_slide
+features_exclude[field_base][field_ik_slide_transition_effect] = field_ik_slide_transition_effect
+features_exclude[field_instance][node-slide-field_ik_slide_transition_effect] = node-slide-field_ik_slide_transition_effect

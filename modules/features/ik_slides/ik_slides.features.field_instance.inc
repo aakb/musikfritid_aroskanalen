@@ -177,49 +177,6 @@ function ik_slides_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-slide-field_ik_slide_font_size'
-  $field_instances['node-slide-field_ik_slide_font_size'] = array(
-    'bundle' => 'slide',
-    'default_value' => array(
-      0 => array(
-        'value' => 1,
-      ),
-    ),
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'list',
-        'settings' => array(),
-        'type' => 'list_default',
-        'weight' => 19,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_ik_slide_font_size',
-    'label' => 'Skriftstørrelse på brødtekst',
-    'required' => 0,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'options',
-      'settings' => array(
-        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
-      ),
-      'type' => 'options_select',
-      'weight' => 16,
-    ),
-  );
-
   // Exported field_instance: 'node-slide-field_ik_slide_import_node'
   $field_instances['node-slide-field_ik_slide_import_node'] = array(
     'bundle' => 'slide',
@@ -346,7 +303,10 @@ function ik_slides_field_default_field_instances() {
           'video' => 0,
         ),
         'browser_plugins' => array(
-          'library_plus' => 'library_plus',
+          'media_browser_plus--media_browser_my_files' => 'media_browser_plus--media_browser_my_files',
+          'media_browser_plus--media_browser_thumbnails' => 'media_browser_plus--media_browser_thumbnails',
+          'media_default--media_browser_1' => 0,
+          'media_default--media_browser_my_files' => 0,
           'media_internet' => 0,
           'upload' => 'upload',
         ),
