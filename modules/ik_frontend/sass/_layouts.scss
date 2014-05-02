@@ -46,13 +46,13 @@
 }
 
 .sport-pink {
-  background-color: #d60cf0;
+  background-color: #d60c8c;
 
   .text-wrapper {
     
   }
   .text-container {
-    @include background-opacity(#d60cf0, 1);
+    @include background-opacity(#d60c8c, 1);
     color: #fff;
   }
 }
